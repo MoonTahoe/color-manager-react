@@ -1,0 +1,37 @@
+.color-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.color-list>li {
+  margin: .3em;
+  font-family: verdana;
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #AAA;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.color-list>li>div {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  box-shadow: 3px 3px 8px 2px #AAA;
+}
+
+.color-list>li>span {
+  margin-left: 1em;
+}
+
+.color-list>li>span:last-child {
+  color: #900;
+  font-size: .8em;
+}
